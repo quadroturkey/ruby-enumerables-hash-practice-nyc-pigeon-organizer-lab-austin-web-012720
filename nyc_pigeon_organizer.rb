@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   
   data.each do |outside, inside|
     inside.each do |attributes, names|
-      names.reduce do |bird|
+      names.each do |bird|
         binding.pry
       end
     end
