@@ -8,8 +8,11 @@ def nyc_pigeon_organizer(data)
     inside.each do |attributes, names|
       names.each do |bird|
         binding.pry
-        new_pigeon_data[bird] = {}
-        new_pigeon_data[bird][outside] = []
+        if !new_pigeon_data[bird]
+          new_pigeon_data[bird] = {}
+        end
+        if new_pigeon_data[bird][outside] = []
+        
         
         
       end
