@@ -9,6 +9,8 @@ def nyc_pigeon_organizer(data)
       names.each do |bird|
         binding.pry
         new_pigeon_data[bird] = {}
+        new_pigeon_data[bird][outside] = []
+        
         
       end
     end
