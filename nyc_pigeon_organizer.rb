@@ -11,7 +11,9 @@ def nyc_pigeon_organizer(data)
         if !new_pigeon_data[bird]
           new_pigeon_data[bird] = {}
         end
-        if new_pigeon_data[bird][outside] = []
+        if !new_pigeon_data[bird][outside]
+          new_pigeon_data[bird][outside] = []
+        end
         
         
         
