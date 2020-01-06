@@ -19,8 +19,9 @@ def nyc_pigeon_organizer(data)
         if new_pigeon_data[bird][outside] != attributes
           new_pigeon_data[bird][outside] << attributes
         end
-        new_pigeon_data
+        
       end
     end
   end 
+  new_pigeon_data
 end
