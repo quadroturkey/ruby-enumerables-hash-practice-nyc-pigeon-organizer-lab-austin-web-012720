@@ -15,7 +15,8 @@ def nyc_pigeon_organizer(data)
           new_pigeon_data[bird][outside] = []
         end
         
-        
+        if new_pigeon_data[bird][outside] != attributes
+          new_pigeon_data[bird][outside] = attributes
         
         
         binding.pry
