@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   data.each do |outside, inside|
     inside.each do |attributes, names|
       names.each do |bird|
-        binding.pry
+        
         if !new_pigeon_data[bird]
           new_pigeon_data[bird] = {}
         end
@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
         end
         
         
-        
+        binding.pry
       end
     end
   end  
